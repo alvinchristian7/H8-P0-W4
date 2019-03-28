@@ -3,7 +3,7 @@ function hapusSimbol(str) {
     // str = str.match(/[A-z0-9]+/g)
     // str = str.join("")
     // return str
-    return str.replace(/W/g,"")
+    return str.replace(/\W/g,"")
   }
   
   // TEST CASES
